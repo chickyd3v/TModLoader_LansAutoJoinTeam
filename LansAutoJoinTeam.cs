@@ -14,7 +14,7 @@ namespace LansAutoJoinTeam
 
 	public class LansAutoJoinTeamPlayer : ModPlayer
 	{
-		public override void DrawEffects(PlayerDrawInfo drawInfo, ref float r, ref float g, ref float b, ref float a, ref bool fullBright)
+		public override void DrawEffects(Terraria.DataStructures.PlayerDrawSet drawInfo, ref float r, ref float g, ref float b, ref float a, ref bool fullBright)
 		{
 			base.DrawEffects(drawInfo, ref r, ref g, ref b, ref a, ref fullBright);
 
